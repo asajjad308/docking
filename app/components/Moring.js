@@ -1,6 +1,11 @@
 import React from 'react';
 
+
+
 function Morning() {
+
+
+
   return (
     <div className="flex justify-center flex-col-reverse md:flex-row   max-w-full gap-20 md:px-40 pt-20 pb-20 p-5 bg-fourth ">
       <div className=" flex flex-col justify-ceter w-full md:w-[50%]  ">

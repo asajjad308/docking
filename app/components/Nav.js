@@ -91,6 +91,24 @@ function Nav(props) {
           </li>
           <li>
             <Link
+              href="parkings"
+              id="1"
+              onClick={change}
+              style={
+                active === 1
+                  ? {
+                      background: 'yellow',
+                      color: 'black',
+                      borderRadius: '8px',
+                    }
+                  : { background: 'none' }
+              }
+            >
+              parkings Rentals
+            </Link>
+          </li>
+          <li>
+            <Link
               href="/leases"
               id="2"
               onClick={change}
